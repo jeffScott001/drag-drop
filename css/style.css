@@ -1,0 +1,30 @@
+body {
+  background: darksalmon;
+}
+.fill {
+  background: url("../Morning-2.jpg") no-repeat center center/cover;
+  position: relative;
+  height: 150px;
+  width: 150px;
+  top: 5px;
+  left: 5px;
+  cursor: pointer;
+}
+.empty {
+  display: inline-block;
+  height: 160px;
+  width: 160px;
+  background-color: #fff;
+  margin: 10px;
+  border: 3px salmon solid;
+}
+.hold {
+  border: solid #333 4px;
+}
+.hovered {
+  background: #555;
+  border-style: dashed;
+}
+invisible {
+  display: none;
+}
